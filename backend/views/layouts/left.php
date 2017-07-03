@@ -18,7 +18,21 @@
               </span>
             </div>
         </form>
-     	<ul class="sidebar-menu">            
+     	<ul class="sidebar-menu">
+            
+            <li class="treeview">                                
+                <a href="#">                                    
+                    <i class="fa fa-lock"></i> 权限控制 <i class="fa fa-angle-left pull-right"></i>                                
+                </a>                                
+                <ul class="treeview-menu">                                    
+                    <li><a href="/admin/route"><i class="fa fa-circle-o"></i> 路由</a></li>                                    
+                    <li><a href="/admin/permission"><i class="fa fa-circle-o"></i> 权限</a></li>                                    
+                    <li><a href="/admin/role"><i class="fa fa-circle-o"></i> 角色</a></li>                                    
+                    <li><a href="/admin/assignment"><i class="fa fa-circle-o"></i> 分配</a></li>                                    
+                    <li><a href="/admin/menu"><i class="fa fa-circle-o"></i> 菜单</a></li>                                
+                </ul>                           
+            </li> 
+            
             <li class="treeview">                                
 
                 <?php

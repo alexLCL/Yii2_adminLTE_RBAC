@@ -26,7 +26,7 @@ return [
             //controller/action
             // * 表示允许所有，后期会介绍这个
             //'*'
-            'site/*'
+            '*'
         ]
     ],
     'components' => [
